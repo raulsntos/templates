@@ -77,6 +77,11 @@
         description = "A simple Go package";
       };
 
+      csharp-hello = {
+        path = ./csharp-hello;
+        description = "A simple C# package";
+      };
+
     };
 
     defaultTemplate = self.templates.trivial;
